@@ -5,7 +5,7 @@ server.ehlo()
 server.starttls()
 server.ehlo()
 
-#serch less secure apps and enable permission for sender_email_address
+#search less secure apps on chrome browser and on less secure apps permission page enable permission for sender_email_address
 server.login('sender_email_address','sender_email_password')  
 
 subject = "subject"
